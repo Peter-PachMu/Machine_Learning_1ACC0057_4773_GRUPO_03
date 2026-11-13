@@ -1,0 +1,24 @@
+{
+  "Gradient Boosting (24 variables)": {
+    "accuracy": 0.8802,
+    "roc_auc": 0.9473,
+    "nota": "Mejor modelo en test. Con equipos nunca vistos baja a cerca de 82%."
+  },
+  "Regresión Logística (base, 9 variables)": {
+    "accuracy": 0.8513,
+    "roc_auc": 0.9314,
+    "nota": "Modelo del Hito 2: simple y generaliza igual o mejor con equipos nuevos (cerca de 83%)."
+  },
+  "importancia": {
+    "diff_sum_Speed": 0.3105,
+    "diff_mv_n_priority": 0.0065,
+    "diff_mv_n_status": 0.0052,
+    "diff_rol_0": 0.005,
+    "diff_sum_HP": 0.0049,
+    "speed_adv_second_mas_rapido": 0.0028,
+    "diff_sum_Attack": 0.0024,
+    "diff_mv_top4_power": 0.002,
+    "diff_mv_coverage": 0.0019,
+    "diff_n_legendary": 0.0016
+  }
+}
